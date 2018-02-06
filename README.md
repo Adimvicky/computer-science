@@ -26,6 +26,7 @@
   - [Advanced CS](#advanced-cs)
   - [Final project](#final-project)
   - [Pro CS](#pro-cs)
+- [Code of conduct](#code-of-conduct)
 - [Community](#community)
   - [How to show your progress](#how-to-show-your-progress)
   - [Team](#team)
@@ -82,7 +83,7 @@ just remember that you can't purchase success!
 
 # Curriculum
 
-**Curriculum version**: `7.2.2` (see [CHANGELOG](CHANGELOG.md))
+**Curriculum version**: `8.0.0` (see [CHANGELOG](CHANGELOG.md))
 
 - [Prerequisites](#prerequisites)
 - [Introduction to Computer Science](#introduction-to-computer-science)
@@ -189,7 +190,8 @@ Courses | Duration | Effort | Prerequisites
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x#!) ([alt](http://ulaff.net/)) | 15 weeks | 8 hours/week | pre-calculus
+[Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | - | - | pre-calculus
+[Linear Algebra - Foundations to Frontiers](https://www.edx.org/course/linear-algebra-foundations-frontiers-utaustinx-ut-5-04x#!) ([alt](http://ulaff.net/)) | 15 weeks | 8 hours/week | Essence of Linear Algebra
 [Calculus One](https://www.coursera.org/learn/calculus1)<sup>*1*</sup> ([alt](https://mooculus.osu.edu/)) | 16 weeks | 8-10 hours/week | pre-calculus
 [Calculus Two: Sequences and Series](https://www.coursera.org/learn/advanced-calculus)| 7 weeks | 9-10 hours/week | Calculus One
 [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm) | 13 weeks | 5 hours/week | single variable calculus (Calculus Two)
@@ -222,9 +224,10 @@ Courses | Duration | Effort | Prerequisites
 [Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) ([alt](http://www.nand2tetris.org/)) | 6 weeks | 7-13 hours/week | none
 [Build a Modern Computer from First Principles: Nand to Tetris Part II ](https://www.coursera.org/learn/nand2tetris2) | 6 weeks | 12-18 hours/week | From Nand to Tetris Part I
 [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about)| 8 weeks | 4–12 hours/week | algebra, probability, basic CS
+[ops-class.org - Hack the Kernel](https://www.ops-class.org/) | 15 weeks | 6 hours/week | algorithms
 
 #### Readings
-- **Required** since Nand2Tetris does not go deep enough into operating systems: [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)
+- **Recommended**: While Hack the Kernel recommends Modern Operating Systems as a textbook, we suggest using [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/).
 
 ### Core theory
 
@@ -243,18 +246,9 @@ Courses | Duration | Effort | Prerequisites
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Algorithms (1/4)](https://www.coursera.org/learn/algorithms-divide-conquer)<sup>1</sup> | 4 weeks | 4-8 hours/week | one programming language, proofs, probability
-[Algorithms (2/4)](https://www.coursera.org/learn/algorithms-graphs-data-structures)<sup>1</sup> | 4 weeks | 4-8 hours/week | Algorithms (1/4)
-[Algorithms (3/4)](https://www.coursera.org/learn/algorithms-greedy) | 4 weeks | 4-8 hours/week | Algorithms (2/4)
-[Algorithms (4/4)](https://www.coursera.org/learn/algorithms-npcomplete) | 4 weeks | 4-8 hours/week | Algorithms (3/4)
+[Algorithms: Design and Analysis, Part I](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms1+SelfPaced/about) | 8 weeks | 4-8 hours/week | any programming language, Mathematics for Computer Science
+[Algorithms: Design and Analysis, Part II](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms2+SelfPaced/about) | 8 weeks | 4-8 hours/week | Part I
 
-**<sup>1</sup> Note**:
-Parts 1 and 2 of Stanford Algorithms is available as [Algorithms: Design and Analysis](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms1+SelfPaced/about) through Stanford Lagunita.
-Unlike the Coursera version, quizzes and tests are auto-graded for free.
-If you are pursuing an optional certificate from Coursera, you will still need to complete parts 1 and 2 through Coursera.
-
-In spite of what it looks like, **these courses are free to access**.
-([How?](FAQ.md#are-coursera-courses-free-to-access))
 
 ### Core applications
 
@@ -320,7 +314,6 @@ Courses | Duration | Effort | Prerequisites
 ### Advanced math
 
 **Topics covered**:
-`real analysis`
 `parametric equations`
 `polar coordinate systems`
 `multivariable integrals`
@@ -330,7 +323,6 @@ Courses | Duration | Effort | Prerequisites
 
 Courses | Duration | Effort | Prerequisites
 :-- | :--: | :--: | :--:
-[Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking) | 10 weeks | 10 hours/week | pre-calculus
 [Calculus: Parametric Equations and Polar Coordinates](https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/unit-4-techniques-of-integration/part-c-parametric-equations-and-polar-coordinates/) | - | - | single-variable calculus (Calculus Two)
 [Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm) | 13 weeks | 12 hours/week | Parametric Equations and Polar Coordinates
 [Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week | Multivariable Calculus
@@ -360,7 +352,6 @@ Courses | Duration | Effort | Prerequisites
 [Computation Structures 1: Digital Circuits](https://www.edx.org/course/computation-structures-part-1-digital-mitx-6-004-1x-0) | 10 weeks | 6 hours/week | electricity, magnetism
 [Computation Structures 2: Computer Architecture](https://www.edx.org/course/computation-structures-2-computer-mitx-6-004-2x) | 10 weeks | 6 hours/week | Computation Structures 1
 [Computation Structures 3: Computer Organization](https://www.edx.org/course/computation-structures-3-computer-mitx-6-004-3x-0) | 10 weeks | 6 hours/week | Computation Structures 2
-[ops-class.org - Hack the Kernel](https://www.ops-class.org/) | 15 weeks | 6 hours/week | algorithms
 
 **<sup>1</sup> Note**:
 These courses assume knowledge of basic physics.
@@ -490,21 +481,23 @@ These aren't the only specializations you can choose. Check the following websit
 - Pay attention to emerging technologies in the world of software development:
   + Explore the **actor model** through [Elixir](http://elixir-lang.org/), a new functional programming language for the web based on the battle-tested Erlang Virtual Machine!
   + Explore **borrowing and lifetimes** through [Rust](https://www.rust-lang.org/), a systems language which achieves memory- and thread-safety without a garbage collector!
-  + Explore **dependent type systems** through [Idris](https://www.idris-lang.org/), a new Haskell-inspired language with unprecedented support for type-driven development
+  + Explore **dependent type systems** through [Idris](https://www.idris-lang.org/), a new Haskell-inspired language with unprecedented support for type-driven development.
 
 ![keep learning](http://i.imgur.com/REQK0VU.jpg)
 
+# Code of conduct
+[OSSU's code of conduct](https://github.com/ossu/code-of-conduct).
+
 # Community
 
-- Subscribe to our [newsletter](https://tinyletter.com/ossu)
-- Subscribe to [/r/opensourcesociety](https://www.reddit.com/r/opensourcesociety/)!
-- Join us in our [group](https://groups.google.com/forum/#!forum/open-source-society-university)!
+- Subscribe to our [newsletter](https://tinyletter.com/ossu).
+- Use our [forum](https://github.com/ossu/forum) if you need some help.
 - You can also interact through [GitHub issues](https://github.com/ossu/computer-science/issues).
 - We also have a chat room! [![Join the chat at https://gitter.im/open-source-society/computer-science](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/open-source-society/computer-science?utm_campaign=pr-badge&utm_content=badge&utm_medium=badge&utm_source=badge)
-- Add **Open Source Society University** to your [Facebook](https://www.facebook.com/ossuniversity) profile!
+- Add **Open Source Society University** to your [Linkedin](https://www.linkedin.com/school/11272443/) and [Facebook](https://www.facebook.com/ossuniversity) profile!
 
 > **PS**: A forum is an ideal way to interact with other students as we do not lose important discussions, which usually occur in communication via chat apps.
-**Please use our subreddit/group for important discussions**.
+**Please use our forum for important discussions**.
 
 ## How to show your progress
 
@@ -531,8 +524,8 @@ You can change the status of your board to be *public* or *private*.
 
 ## Team
 
-* **Curriculum Founder**: [Eric Douglas](https://github.com/ericdouglas)
-* **Curriculum Maintainer**: [Eric Douglas](https://github.com/ericdouglas) and [hanjiexi](https://github.com/hanjiexi)
+* **Curriculum Founders**: [Eric Douglas](https://github.com/ericdouglas)
+* **Curriculum Maintainers**: [Eric Douglas](https://github.com/ericdouglas) and [hanjiexi](https://github.com/hanjiexi)
 * **Contributors**: [contributors](https://github.com/ossu/computer-science/graphs/contributors)
 
 # References
